@@ -31,8 +31,7 @@ namespace DesafioFundamentos.Models
             }else{
                 Console.WriteLine("Digite uma placa valida nos moldes brasileiros por favor");
             }
-            // TODO: Pedir para o usuário digitar uma placa (ReadLine) e adicionar na lista "veiculos"
-            // *IMPLEMENTE AQUI*
+           
         }
 
 
@@ -51,8 +50,7 @@ namespace DesafioFundamentos.Models
             Console.WriteLine("Digite a placa do veículo para remover:");
             string placa = Console.ReadLine();
 
-            // Pedir para o usuário digitar a placa e armazenar na variável placa
-            // *IMPLEMENTE AQUI*
+         
             if(ValidaPlaca(placa)){
                 placa=placa.ToUpper();
             }else{
@@ -83,16 +81,8 @@ namespace DesafioFundamentos.Models
                 {
                     Console.WriteLine("Digite um numero inteiro por favor");
                 }
-                // TODO: Pedir para o usuário digitar a quantidade de horas que o veículo permaneceu estacionado,
-                // TODO: Realizar o seguinte cálculo: "precoInicial + precoPorHora * horas" para a variável valorTotal                
-                // *IMPLEMENTE AQUI*
                
-              
-
-                // TODO: Remover a placa digitada da lista de veículos
-                // *IMPLEMENTE AQUI*
-
-                
+                        
             }
             else
             {
